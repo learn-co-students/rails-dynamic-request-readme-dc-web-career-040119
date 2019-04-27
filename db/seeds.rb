@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+post = Post.create([{ title: 'my first seed object' }, { description: 'I went into seed.rb to make this.' }, {created_at: Time.now,}, {updated_at: nil}])
